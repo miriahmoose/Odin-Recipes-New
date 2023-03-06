@@ -1,3 +1,45 @@
 body {
-    font-family:'Courier New', Courier, monospace;
+    background-color: #f2e9e4;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    padding-top: 30px;
+}
+
+li, p, ul {
+    font-family: 'Urbanist', sans-serif;
+    list-style-position: inside;
+}
+
+.menu {
+    text-align: center;
+    background-color: #9a8c98;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.return {
+    display: flex;
+    height: 200px;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+
+.return > div {
+    background-color: #c9ada7;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
 }
