@@ -15,8 +15,15 @@ li, p, ul {
 }
 
 .menu {
-    text-align: center;
-    background-color: #9a8c98;
+    background-color: #c9ada7;
+    border-radius: 10px;
+    font-family: 'Urbanist', sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: auto;
 }
 
 .menu a {
@@ -29,17 +36,60 @@ img {
 }
 
 .return {
+    background-color: #c9ada7;
+    border-radius: 10px;
+    font-family: 'Urbanist', sans-serif;
     display: flex;
-    height: 200px;
     flex-flow: column wrap;
-    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: auto;
 }
 
-.return > div {
-    background-color: #c9ada7;
-    width: 200px;
-    margin: 10px;
-    text-align: center;
-    line-height: 50px;
+.return a {
+    text-decoration: none;
+}
+
+/* RECIPES */
+
+h4.intro {
+    background-color: #9a8c98;
+    border-style: outset;
+    border-color: #4a4e69;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+h3.ingredients {
+    font-family: 'Urbanist', sans-serif;
+}
+
+h3.steps {
+    font-family: 'Urbanist', sans-serif;
+}
+
+ul.list_ingredients, ol.list_steps {
+    text-align: left;
+    background-color: #9a8c98;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 500px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.description {
+    background-color: #9a8c98;
+    border-style: outset;
+    border-color: #4a4e69;
+    margin: auto;
+    width: 750px;
     border-radius: 10px;
 }
