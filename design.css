@@ -22,16 +22,30 @@ li, p, ul {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 400px;
     margin: auto;
 }
 
-.menu a {
+.submenu {
+    font-family: 'Urbanist', sans-serif;
+    text-align: center; 
+}
+
+.submenu li {
+    text-align: center;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center; 
+}
+
+.submenu a {
     text-decoration: none;
+    align-items: center;
+    justify-content: center; 
 }
 
 img {
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
@@ -67,11 +81,11 @@ h4.intro {
 }
 
 h3.ingredients {
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 h3.steps {
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 ul.list_ingredients, ol.list_steps {
